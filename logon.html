@@ -29,24 +29,25 @@
             <h1>Faça login<br> E entre para o nosso time</h1>
             <img src="imagens/Computer login-amico.png" alt="login">
         </div>
-
-        <div class="right-login">
+        <form action="painel.html" method="post">
+        <div class="right-login">   
             <div class="card-login">
 
                 <h1>Login</h1>
 
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <input type="text" required name="usuario" placeholder="Usuário">
                 </div>
 
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" required name="senha" placeholder="Senha">
                 </div>
-
+                <a href="#" id="senha">Esqueceu a senha?</a>
                 <a href="painel.html" id="login"><button class="btn-login">Login</button></a>
-
+                <a href="home.html" id="login"><button class="btn-login">Voltar</button></a>
+            </form>
             </div>
 
         </div>

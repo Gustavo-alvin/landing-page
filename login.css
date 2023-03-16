@@ -127,6 +127,11 @@ entao o eixo Y sera o justify-content e o eixo X sera o align-items */
     color: #f0ffff94;
 }
 
+#senha{
+    font-size: medium;
+    margin-left: 65%;
+}
+
 .btn-login{
     width: 100%;
     padding: 16px 0px;

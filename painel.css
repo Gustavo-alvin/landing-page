@@ -40,17 +40,17 @@ a:hover{
 }
 
 table{
+    width: 100%;
     border-style: solid;
     border-color:#302347;
     padding: 15px;
     border-radius: 20px;
-    text-align: left;
-    margin-left: 44%;
     background-color: #101010;
 }
 
 tr:hover{
     color:#9e6df1;
+    cursor:grab;
 }
 
 .btn-voltar{
