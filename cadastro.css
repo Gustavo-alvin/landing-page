@@ -5,81 +5,37 @@ body {
     background-image: linear-gradient(45deg, black, #221133);
     color:white;
     font-family: 'Noto Sans', sans-serif;
+    height: 150vh;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+header {
     background-color: #1f0735;
-}
-
-#titulo{
-    flex-direction: column;
-    line-height: 10px;
-}
-
-li{
-    display: inline-block;
-    margin: 20px;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    font-size: 23px;
-}
-
-a:hover{
-    color: rgb(132, 14, 201);
-    transition: 0.3s all;
-}
-
-#Cadastra-se-btn{
-    border: 2px solid rgb(132, 14, 201);
-    padding: 10px;
-    border-radius: 15px;
-}
-
-#Cadastra-se-btn:hover{
-    background-color: rgb(132, 14, 201);
-    color: white;
+    padding: 0.9%;
 }
 
 main{
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*justify-content organiza os itens  eixo X
-align organiza os itens no eixo Y */
-
-.left-login{
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-img{
-    width: 35vw;
-}
-
-.right-login{
-    width: 50vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card-login{
-    width: 60%;
+#txt-descriçao{
+    font-weight: 50%;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}  
+
+h2{
+    font-size: 20px;
+}
+
+.card-cadastro{
+    width: 80%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +47,7 @@ img{
 
 }
 
-.card-login{
+.card-cadastro{
     font-weight: 800;
     margin: 0;
 }
@@ -128,12 +84,12 @@ entao o eixo Y sera o justify-content e o eixo X sera o align-items */
     color: #f0ffff94;
 }
 
-#senha{
-    font-size: medium;
-    margin-left: 65%;
+.termo{
+    display: flex;
+    flex-direction: row;
 }
 
-.btn-login{
+.btn-cad{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -149,8 +105,9 @@ entao o eixo Y sera o justify-content e o eixo X sera o align-items */
     box-shadow: 0px 10px 40px -12px #f7eeffce;
 }
 
-#login{
+#cadastro{
     width: 100%;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }

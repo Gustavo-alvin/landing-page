@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<header><span></span></header>
+<body>
+    <main>
+        <div class="container">
+            <div id="txt-descriçao">
+                <h1>Conta Xyrus</h1>
+                <h2>Crie a sua conta única para todos <br>
+                os recursos da Xyrus academy </h2>
+            </div>
+            <div class="card-cadastro">
+                <form action="painel.html" method="post">
+                <div class="textfield">
+                    <label for="Nome completo">Nome completo</label>
+                    <input type="text" required name="Nome completo" placeholder="Nome completo">
+                </div>
+                <div class="textfield">
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" required name="email" placeholder="E-mail">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" required name="senha" placeholder="Senha">
+                </div>
+                <div class="textfield">
+                    <label for="data de nascimento">Data de nascimento</label>
+                    <input type="date" required name="data" id="" >
+                </div>
+                <div class="termo">
+                    <input type="checkbox" required name="checkbox" id="">
+                    <p>Li e concordo com os <a href="#">Termo de uso</a>e <br>
+                    <a href="#">Politica de privacidade.</a></p>
+                </div>
+                <a href="painel.html" id="cadastro"><button class="btn-cad">cadastrar</button></a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
